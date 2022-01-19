@@ -1,0 +1,295 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "files.autoSave": "afterDelay",
+    "editor.tabSize": 2,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "discord.detailsEditing": "{file_name}",
+    "discord.detailsIdle": "probably somewhere dying",
+    "C_Cpp.updateChannel": "Insiders",
+    "discord.workspaceElapsedTime": true,
+    "editor.cursorStyle": "line-thin",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSaveMode": "modifications",
+    "glassit-linux.opacity": 50,
+    "files.autoGuessEncoding": true,
+    "java.jdt.ls.vmargs": "-Dfile.encoding=UTF-8",
+    "discord.lowerDetailsEditing": "project: {workspace}",
+    "discord.lowerDetailsIdling": "sleeping",
+    "workbench.experimental.sidePanel.enabled": true,
+    "redhat.telemetry.enabled": true,
+    "discord.smallImage": "NO",
+    "java.refactor.renameFromFileExplorer": "autoApply",
+    "git.enableSmartCommit": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "git.confirmSync": false,
+    "explorer.confirmDragAndDrop": false,
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
+    },
+    "git.autofetch": true,
+    "explorer.confirmDelete": false,
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "VSCord.detailsViewing": "In {problems}",
+    "VSCord.lowerDetailsEditing": "Working on {filename}",
+    "VSCord.workspaceElapsedTime": true,
+    "VSCord.checkIdle": false,
+    "editor.renderControlCharacters": true,
+    "workbench.editorAssociations": {
+        "*.class": "default",
+        "*.ipynb": "jupyter.notebook.ipynb",
+        "*.mca": "default"
+    },
+    "VSCord.detailsEditing": "{problems} found",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "warmUp.changeCount": "15",
+    "warmUp.switchProgrammingLanguage": "java",
+    "warmUp.changeTypingMode": "code snippets",
+    "rpc.lowerDetailsEditing": "Working on {file_name}",
+    "rpc.buttonActiveLabel": ".-.",
+    "rpc.detailsEditing": "{problems}",
+    "rpc.detailsViewing": "{problems}",
+    "java.codeGeneration.generateComments": true,
+    "java.codeGeneration.hashCodeEquals.useInstanceof": true,
+    "java.completion.guessMethodArguments": true,
+    "java.errors.incompleteClasspath.severity": "error",
+    "java.debug.settings.forceBuildBeforeLaunch": false,
+    "java.debug.settings.onBuildFailureProceed": true,
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "rpc.checkIdle": false,
+    "rpc.lowerDetailsViewing": "Working on {file_name}",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "extensions.autoUpdate": "onlyEnabledExtensions",
+    "js/ts.implicitProjectConfig.checkJs": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.executorMap": {
+        "kotlin":"kotlinc-native $fileName -o $fileNameWithoutExt ; if ($?) { ./$fileNameWithoutExt }",
+        "javascript": "node",
+        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "php": "php",
+        "python": "python -u",
+        "perl": "perl",
+        "perl6": "perl6",
+        "ruby": "ruby",
+        "go": "go run",
+        "lua": "lua",
+        "groovy": "groovy",
+        "powershell": "powershell -ExecutionPolicy ByPass -File",
+        "bat": "cmd /c",
+        "shellscript": "bash",
+        "fsharp": "fsi",
+        "csharp": "scriptcs",
+        "vbscript": "cscript //Nologo",
+        "typescript": "ts-node",
+        "coffeescript": "coffee",
+        "scala": "scala",
+        "swift": "swift",
+        "julia": "julia",
+        "crystal": "crystal",
+        "ocaml": "ocaml",
+        "r": "Rscript",
+        "applescript": "osascript",
+        "clojure": "lein exec",
+        "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+        "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+        "racket": "racket",
+        "scheme": "csi -script",
+        "ahk": "autohotkey",
+        "autoit": "autoit3",
+        "dart": "dart",
+        "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+        "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+        "haskell": "runhaskell",
+        "nim": "nim compile --verbosity:0 --hints:off --run",
+        "lisp": "sbcl --script",
+        "kit": "kitc --run",
+        "v": "v run",
+        "sass": "sass --style expanded",
+        "scss": "scss --style expanded",
+        "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+        "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+    },
+    "java.dependency.packagePresentation": "hierarchical",
+    "java.dependency.showMembers": true,
+    "timeline.excludeSources": [],
+    "clock.dateFormat": "hh:MM TT S",
+    "cph.general.autoShowJudge": false,
+    "tabnine.experimentalAutoImports": true,
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-11",
+            "path": "C:\\Program Files\\Eclipse Foundation\\jdk-11.0.12.7-hotspot"
+        }
+    ],
+    "java.home": "C:\\Program Files\\Eclipse Foundation\\jdk-11.0.12.7-hotspot",
+    "ShortcutMenuBar.commentLine": true,
+    "ShortcutMenuBar.compareWithSaved": true,
+    "ShortcutMenuBar.findReplace": true,
+    "ShortcutMenuBar.indentLines": true,
+    "ShortcutMenuBar.toggleRenderWhitespace": true,
+    "editor.renderWhitespace": "all",
+    "workbench.sideBar.location": "right",
+    "sonarlint.rules": {
+        "java:S106": {
+            "level": "off"
+        },
+        "java:S115": {
+            "level": "off"
+        },
+        "java:S112": {
+            "level": "off"
+        },
+        "java:S131": {
+            "level": "off"
+        },
+        "java:S1301": {
+            "level": "off"
+        },
+        "java:S2189": {
+            "level": "off"
+        },
+        "java:S1643": {
+            "level": "off"
+        },
+        "java:S116": {
+            "level": "off"
+        },
+        "java:S1854": {
+            "level": "off"
+        },
+        "java:S3776": {
+            "level": "off"
+        },
+        "java:S2140": {
+            "level": "off"
+        },
+        "java:S1659": {
+            "level": "off"
+        },
+        "java:S2095": {
+            "level": "off"
+        },
+        "javascript:S4138": {
+            "level": "off"
+        },
+        "java:S1170": {
+            "level": "off"
+        },
+        "java:S1172": {
+            "level": "off"
+        },
+        "java:S101": {
+            "level": "off"
+        },
+        "java:S117": {
+            "level": "off"
+        },
+        "java:S2696": {
+            "level": "off"
+        },
+        "java:S4274": {
+            "level": "off"
+        },
+        "java:S1192": {
+            "level": "off"
+        }
+    },
+    "editor.inlineSuggest.enabled": true,
+    "rpc.buttonEnabled": false,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": true,
+        "cpp": true,
+        "java": true,
+        "html": true
+    },
+    "workbench.tree.renderIndentGuides": "always",
+    "[shellscript]": {
+        "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
+    "keyboard.layout": "00020409",
+    "window.menuBarVisibility": "classic",
+    "code-runner.saveAllFilesBeforeRun": true,
+    "code-runner.runInTerminal": true,
+    "code-runner.fileDirectoryAsCwd": true,
+    "code-runner.clearPreviousOutput": true,
+    "files.exclude": {
+        "*.class": true,
+        "*.exe": true,
+        "*.java~": true
+    },
+    "terminal.integrated.allowMnemonics": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.detectLocale": "on",
+    "terminal.integrated.enableBell": true,
+    "java.debug.settings.showHex": true,
+    "terminal.integrated.confirmOnKill": "panel",
+    "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+    "files.associations": {
+        "*.diff": "diff",
+        "*.yxx": "cpp"
+    },
+    "liveshare.connectionMode": "relay",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "C_Cpp.addNodeAddonIncludePaths": true,
+    "C_Cpp.autocompleteAddParentheses": true,
+    "C_Cpp.clang_format_fallbackStyle": "Google",
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "debug.terminal.clearBeforeReusing": true,
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "java.codeGeneration.hashCodeEquals.useJava7Objects": true,
+    "java.codeGeneration.toString.skipNullValues": true,
+    "java.codeGeneration.useBlocks": true,
+    "java.eclipse.downloadSources": true,
+    "search.searchEditor.defaultNumberOfContextLines": 0,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "git.enableCommitSigning": true,
+    "git-graph.repository.sign.commits": true,
+    "git-graph.repository.sign.tags": true,
+    "cSpell.userWords": [
+        "Meng"
+    ],
+    "cmake.configureOnOpen": true,
+    "workbench.colorTheme": "Electron",
+    "errorLens.gutterIconsEnabled": true,
+    "errorLens.gutterIconSet": "circle",
+    "errorLens.gutterIconSize": "85%",
+    "peacock.affectDebuggingStatusBar": true,
+    "peacock.affectPanelBorder": true,
+    "peacock.affectSideBarBorder": true,
+    "oneDarkPro.bold": true,
+    "cppComment.CompleteParamType": true,
+    "bracketPairColorizer.colorMode": "Independent",
+    "bracketPairColorizer.forceIterationColorCycle": true,
+    "bracketPairColorizer.highlightActiveScope": true,
+    "bracketPairColorizer.depreciation-notice": false,
+
+}
