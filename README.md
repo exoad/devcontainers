@@ -1,2 +1,0 @@
-# devcontainers
-.devcontainers for vscode
