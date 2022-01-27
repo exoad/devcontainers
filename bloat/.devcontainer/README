@@ -1,4 +1,4 @@
 This is my personal devcontainer that I use on my virtual machine, and it is labelled "bloat" because it contains
 everything that I need. :)
 
-Note this requires around ~2.5gb of RAM in order to run smoothly
+Note this requires around ~2.5gb of RAM in order to run smoothly [Not counting project and workspace file size]
